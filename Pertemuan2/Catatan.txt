@@ -1,0 +1,20 @@
+Membuat flow layout
+
+Langkah pertama adalah buka cmd dan ketikkan perintah dibawah ini :
+
+mvn archetype:generate
+-DgroupId=com.praktikum.project
+-DartifactId=Pertemuan2
+-DarchetypeArtifactId=maven-archetype-quickstart
+-DinteractiveMode=false
+
+
+mvn clean install
+
+mvn exec:java -Dexec.mainClass=com.praktikum.project.HaloSwing
+
+mvn exec:java -Dexec.mainClass=com.praktikum.project.DemoFlowLayout
+
+mvn exec:java -Dexec.mainClass=com.praktikum.project.DemoGridLayout
+
+mvn exec:java -Dexec.mainClass=com.praktikum.project.DemoBorderLayout
